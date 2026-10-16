@@ -45,7 +45,7 @@ Verified with 9 screenshots interlinked proof - SMOOTH PROCESS:
 
 ## 🏗 Architecture Diagram – Tier 8 Goal – Architecture diagram in README, each service = repo – Interlinked 78+79+80+81 – demo7.jpg – SMOOTH PROCESS
 
-[architecture](screenshots/demo7.jpg)
+![architecture](screenshots/demo7.jpg)
 
 ```text
 TIER 8 – ADVANCED BACKEND – MICROSERVICES – INTERLINKED – 78+79+80+81 – DUAL TOPIC LOGGER – 9 Demos – SMOOTH NO ERRORS
@@ -256,7 +256,7 @@ curl -X POST http://localhost:8087/api/orders -H "Content-Type: application/json
 ```
 http://localhost:8090/api/logs
 ```
-[demo1](screenshots/demo1.png)
+![demo1](screenshots/demo1.png)
 
 ---
 
@@ -271,7 +271,7 @@ http://localhost:8090/api/logs
 >>> PRODUCED Event: Order{id='7777', product='KEYBOARD', qty=5}
 >>> JSON: {"id":"7777","product":"KEYBOARD","qty":5}
 ```
-[demo2](screenshots/demo2.png)
+![demo2](screenshots/demo2.png)
 
 ---
 
@@ -291,7 +291,7 @@ Order ID: 8888 Product: MOUSE Quantity: 1 Email sent to customer for order 8888
 ********** NOTIFICATION SENT **********
 Order ID: 7777 Product: KEYBOARD Quantity: 5 Email sent to customer for order 7777
 ```
-[demo3](screenshots/demo3.png)
+![demo3](screenshots/demo3.png)
 
 ---
 
@@ -314,7 +314,7 @@ Payment ID: af44e081 Order ID: 7777 Amount: $500.0 Status: SUCCESS
 >>> [80-PAYMENT] PRODUCED Payment: PaymentId=af44e081 OrderId=7777 Status=SUCCESS Amount=$500.0
 >>> JSON: {"paymentId":"af44e081","orderId":"7777","status":"SUCCESS","amount":500.0}
 ```
-[demo4](screenshots/demo4.png)
+![demo4](screenshots/demo4.png)
 
 ---
 
@@ -340,7 +340,7 @@ Payment ID: af44e081 Order ID: 7777 Amount: $500.0 Status: SUCCESS
 ********** LOG SAVED - PAYMENT **********
 [2026-10-16 10:54:49] LOG - Payment ID: af44e081 | Order ID: 7777 | Status: SUCCESS | Amount: $500.0 | Source: 80-payment-service | Topic: payments | Group: logging-group-RAVI-FINAL
 ```
-[demo5](screenshots/demo5.png)
+![demo5](screenshots/demo5.png)
 
 ---
 
@@ -355,7 +355,7 @@ Creating volume "kafka-docker_kafka_data" with default driver
 Creating kafka-docker_zookeeper_1 ... done
 Creating kafka-docker_kafka_1 ... done
 ```
-[demo6](screenshots/demo6.png)
+![demo6](screenshots/demo6.png)
 
 ---
 
@@ -363,7 +363,7 @@ Creating kafka-docker_kafka_1 ... done
 
 **Tier 8 GitHub Goal Achieved – Architecture diagram in README, each service = repo – Interlinked 78+79+80+81 – DUAL TOPIC LOGGER – Triple parallel consumers – Same style Project 80 demo7.jpg – Smooth process as requested – 9 Demos:**
 
-[architecture](screenshots/demo7.jpg)
+![architecture](screenshots/demo7.jpg)
 
 ---
 
@@ -378,7 +378,7 @@ Order placed: Order{id='8888', product='MOUSE', qty=1}
 C:\Users\Ravi Teja>curl -X POST http://localhost:8087/api/orders -H "Content-Type: application/json" -d "{\"id\":\"7777\",\"product\":\"KEYBOARD\",\"qty\":5}"
 Order placed: Order{id='7777', product='KEYBOARD', qty=5}
 ```
-[demo8](screenshots/demo8.png)
+![demo8](screenshots/demo8.png)
 
 ---
 
@@ -389,7 +389,7 @@ Order placed: Order{id='7777', product='KEYBOARD', qty=5}
 C:\Users\Ravi Teja>curl -X POST http://localhost:8087/api/orders -H "Content-Type: application/json" -d "{\"id\":\"8888\",\"product\":\"MOUSE\",\"qty\":1}"
 Order placed: Order{id='8888', product='MOUSE', qty=1}
 ```
-[demo9](screenshots/demo9.png)
+![demo9](screenshots/demo9.png)
 
 ---
 
@@ -406,7 +406,7 @@ Order placed: Order{id='8888', product='MOUSE', qty=1}
 - **Tier 9 DevOps + Cloud – Dockerize – 9 Demos + Docker – Smooth:** 83 Dockerize App – Dockerfile – Docker Compose 78 + 79 + 80 + 81 + Kafka + Zookeeper – 6 services – 84 K8s Deploy – 85 GitHub Actions CI – Badges build passing, coverage, deployed link – Tier 9 GitHub Goal – Same style Project 80 future Tier 9 – **Docker Compose with 6 services + orders + payments topics – Smooth no errors – demo6.png 3/3 Created + Started – 9 Demos**
 - **Add DB – Save logs – JPA MySQL – Tier 2 Java + SQL – ER diagrams, SQL scripts – Log table:** Log table id, timestamp, topic, message, source, level – demo5.png LOG SAVED ORDER + LOG SAVED PAYMENT – Save to DB – Same style Project 80 future DB – Smooth – 3 Orders + 3 Payments – PaymentIds 48b479d9 + 5e581df6 + af44e081
 
-## 👨💻 Author – 100 Projects Java Full Stack Development and GitHub Profile Roadmap – 81/100 – 9 Demos – Same style as Project 80 – Smooth No Errors
+## 👨💻 Author – 100 Projects Java Full Stack Development and GitHub Profile Roadmap
 
 ### Vemula Leela Venkata Ravi Teja
 Java Full Stack Developer
