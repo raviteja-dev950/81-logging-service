@@ -1,0 +1,17 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: 81-logging-service
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: logging-group-RAVI-FINAL
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd'T'HH:mm:ss.SSSXXX} %clr(%5p) ${PID:- } --- [%t] %clr(%-40.40logger{39}){cyan} : %m%n%wEx"
