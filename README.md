@@ -410,7 +410,7 @@ Order placed: Order{id='8888', product='MOUSE', qty=1}
 
 ### Vemula Leela Venkata Ravi Teja
 Java Full Stack Developer
-100 Java Full Stack Projects Challenge – 81/100 – Tier 8 Advanced Backend – Microservices Track – Logging Service - Kafka Consumer Dual Topic – Interlinked with 78 Event-Driven Order + 79 Notification Service + 80 Payment Service – DUAL TOPIC LOGGER – 9 Demos – Same style as Project 80 – Smooth No Errors
+100 Java Full Stack Projects Challenge – 81/100 – Tier 8 Advanced Backend – Microservices Track – Logging Service - Kafka Consumer Dual Topic – Interlinked with 78 Event-Driven Order + 79 Notification Service + 80 Payment Service .
 
 **Roadmap Progress – Tier 8 – Advanced Backend – Microservices – Architecture diagram in README, each service = repo – Same style as Project 80 – Smooth process as requested – 9 Demos:**
 - Tier 1 Foundations Core Java + Git Clean repos, great READMEs, commit history – 1-12 completed – Same style Project 80 – Smooth
