@@ -11,7 +11,7 @@
 <img src="https://img.shields.io/badge/Status-Completed-20B000" alt="Completed">
 </p>
 
-## 📖 Project Overview - Tier 8 Interlinked with 78 + 79 + 80 - SMOOTH PROCESS NO ERRORS!
+## 📖 Project Overview - Tier 8 Interlinked with 78 + 79 + 80 
 
 Project 81 is **Tier 8 – Advanced Backend – Microservices – Architecture diagram in README, each service = repo** - GitHub Goal Achieved - **Smooth process without errors!**
 
